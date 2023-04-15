@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  
+  <body>
+    <h1>Quiz</h1>
+    
+    <!-- Pergunta 1 -->
+    <div id="pergunta1">
+      <h3>1. Qual é o maior planeta do Sistema Solar?</h3>
+      <button onclick="responder(this, 'errado', 'pergunta1')">Marte</button>
+      <button onclick="responder(this, 'certo', 'pergunta1')">Júpiter</button>
+      <button onclick="responder(this, 'errado', 'pergunta1')">Terra</button>
+      <button onclick="responder(this, 'errado', 'pergunta1')">Plutão</button>
+    </div>
+    
+    <!-- Pergunta 2 -->
+    <div id="pergunta2">
+      <h3>2. Qual é a capital do Canadá?</h3>
+      <button onclick="responder(this, 'errado', 'pergunta2')">Toronto</button>
+      <button onclick="responder(this, 'errado', 'pergunta2')">Michigan</button>
+      <button onclick="responder(this, 'certo', 'pergunta2')">Ottawa</button>
+      <button onclick="responder(this, 'errado', 'pergunta2')">Mississipi</button>
+    </div>
+
+    <!-- Pergunta 3 -->
+    <div id="pergunta3">
+        <h3>3. Qual é o maior animal terrestre?</h3>
+        <button onclick="responder(this, 'certo', 'pergunta3')">Elefante</button>
+        <button onclick="responder(this, 'errado', 'pergunta3')">Leão</button>
+        <button onclick="responder(this, 'errado', 'pergunta3')">Hipopotamo</button>
+        <button onclick="responder(this, 'errado', 'pergunta3')">Girafa</button>
+      </div>
+      
+    <!-- Pergunta 4 -->
+    <div id="pergunta4">
+        <h3>4. Qual é a maior bacia hidrográfica do mundo?</h3>
+        <button onclick="responder(this, 'errado', 'pergunta4')">Nilo</button>
+        <button onclick="responder(this, 'errado', 'pergunta4')">Amazonense</button>
+        <button onclick="responder(this, 'errado', 'pergunta4')">Paraná</button>
+        <button onclick="responder(this, 'certo', 'pergunta4')">Amazônica</button>
+      </div>
+
+    <!-- Exibe a pontuação atual na página html -->
+    <h1>Pontuação atual: <span id="pontuacao">0</span></h1> 
+    
+    <script src="script.js"></script>
+  </body>
+</html>

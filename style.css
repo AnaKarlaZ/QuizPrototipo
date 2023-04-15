@@ -1,0 +1,29 @@
+body{
+	background-color: rgb(211, 163, 255);
+}
+
+/* Define o estilo dos botões */
+button {
+	background-color: rgb(183, 110, 252);
+	width: 45%; /* largura */
+	height: 50px; /* altura */
+	margin: 30px; /* margem para espaçamento */
+	float: right; /* fltuação dos itens */
+	padding: 10px; /* espaçamento */
+	border-radius: 20px; /* bordas arredondadas */
+  }
+  
+  /* Define o estilo dos botões de resposta correta */
+  .certo {
+	background-color: green; /* cor de fundo verde */
+  }
+  
+  /* Define o estilo dos botões de resposta incorreta */
+  .errado {
+	background-color: red; /* cor de fundo vermelha */
+  }
+
+  /* alinhamento das tags h */
+  h1, h3{
+	text-align: center;
+  }
